@@ -1,0 +1,130 @@
+/* common selector start */
+
+:root {
+    --brand-color: #9ed034;;
+    --primary-color: #F8F4F0;
+    --color-white: #fff;
+    --color-dark: #000;
+    --border-width: 2px;
+    --btn-padding: 10px 65px;
+}
+
+/* nav section start*/
+.nav_section .container{
+	background: #fff;
+	left: 100px;
+	top: 60px;
+	position: absolute;
+	z-index: 9999;
+}
+.nav_section .logo-pic a{
+	display: flex;
+	align-content: center;
+	justify-content: start;
+}
+.nav_section .nav_menu {
+	display: flex;
+	justify-content: end;
+}
+.nav_section .nav_menu a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 100px;
+	text-decoration: none;
+	padding-right: 10px;
+	color: #888;
+	border-right:1px solid #e2e1e1;
+}
+.nav_section .nav_menu a:hover{
+	color: #9ed034;
+}
+.nav_section .nav_menu .fastmenu{
+	width: 100px;
+	height: 100px;
+	color: var(--color-white);
+	background: var(--brand-color);
+}
+.nav_section .nav_menu .fastmenu:hover{
+	color: #fff;
+}
+.nav_section .nav_menu .lastmenu{
+	border-right: none;
+}
+/* nav section end*/
+
+/* header section start */
+
+.header_section{
+	background: rgba(0, 0, 0, .7);
+	position: relative;
+}
+/* .booking_section */
+.header_section .booking_section{
+	left: 100px;
+	top: 250px;
+	position: absolute;
+	background: #fff;
+	width: 380px;
+	height: 320px;
+}
+.header_section .booking_section h1{
+	color: #fff;
+	background: #E54747;
+	width: 150px;
+	height: 50px;
+	align-items: center;
+	align-self: center;
+}
+.header_section .booking_section p{
+color: #888;
+}
+/* .booking_section_button */
+.header_section .booking_section .btn{
+	background: #9ed034;
+	border-radius: none;
+	border-color: #9ed034;
+	width: 160px;
+	height: 40px;
+}
+/* next/previous button */
+.header_section .next_button{
+	right: 0px;
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	background: #fff;
+	color: #000;
+}
+.header_section .previous_button{
+	left: 0px;
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	background: #fff;
+	color: #000;
+}
+/* header section end */
+
+
+.blank-icon, .last-blank-icon{
+	flex:1 1 33%;
+	height:120px;
+	background-color:#EEEEEE;
+	border:1px solid #D4D4D4;
+}
+.fast-icon, .second-icon, .third-icon, .forth-icon, .fifth-icon, .sixth-icon{
+	flex:1 1 100%;
+	height:120px;
+	background-color:#EEEEEE;
+	border:1px solid #D4D4D4;
+	align-items: center;
+	justify-content: center;
+}
+.logo-pic, .copyright, .social-media{
+	flex:1 1 100%;
+	height:220px;
+	align-items: center;
+	justify-content: center;
+} */ */
