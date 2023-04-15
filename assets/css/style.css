@@ -119,7 +119,7 @@ color: var(--primary-color);
 	align-items: center;
 	align-content: center;
 	height: 150px;
-	background: var(--color-white);
+	background: #EEEEEE;
 }
 .partner_section .image-fluid{
 	margin-top: 35px;
