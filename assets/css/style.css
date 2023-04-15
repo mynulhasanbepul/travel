@@ -90,6 +90,9 @@ color: var(--primary-color);
 }
 /* next/previous button */
 .header_section .next_button{
+	display: flex;
+	align-items: center;
+	justify-content: end;
 	right: 0px;
 	position: absolute;
 	width: 40px;
@@ -98,6 +101,9 @@ color: var(--primary-color);
 	color: var(--color-dark);
 }
 .header_section .previous_button{
+	display: flex;
+	align-items: center;
+	justify-content: start;
 	left: 0px;
 	position: absolute;
 	width: 40px;
