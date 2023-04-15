@@ -92,7 +92,7 @@ color: var(--primary-color);
 .header_section .next_button{
 	display: flex;
 	align-items: center;
-	justify-content: end;
+	justify-content: center;
 	right: 0px;
 	position: absolute;
 	width: 40px;
@@ -100,10 +100,10 @@ color: var(--primary-color);
 	background: var(--color-white);
 	color: var(--color-dark);
 }
-.header_section .previous_button{
+.header_section .previous_button{ 
 	display: flex;
 	align-items: center;
-	justify-content: start;
+	justify-content: center;
 	left: 0px;
 	position: absolute;
 	width: 40px;
