@@ -138,13 +138,6 @@ color: var(--primary-color);
 	border-left: 1px solid #d4d2d2;
 }
 /*footer start*/
-.footer_section .social_icon i{
-	color: var(--brand-color);
-	padding-left: 40px;
-}
-.footer_section .social_icon a{
-	text-decoration: none;
-}
 .footer_section .copyright {
 	display: inline-block;
 	text-decoration: none;
@@ -153,5 +146,17 @@ color: var(--primary-color);
 	color: var(--brand-color);
 	text-decoration: none;
 }
+.footer_section .social_icon i{
+	color: var(--brand-color);
+	padding-left: 30px;
+}
+.footer_section .social_icon a{
+	text-decoration: none;
+}
+.footer_section .social_icon {
+	display:flex;
+	justify-content: end;
+}
+
 
 /*footer end*/
