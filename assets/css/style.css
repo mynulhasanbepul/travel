@@ -15,7 +15,6 @@
 	left: 100px;
 	top: 60px;
 	position: absolute;
-	z-index: 9999;
 }
 .nav_section .logo-pic a{
 	display: flex;
@@ -56,14 +55,14 @@
 
 /* header section start */
 
-.header_section{
-	background: rgba(0, 0, 0, .7);
+.header_section .carousel-inner img{
+	filter: blur(2px);
 	position: relative;
 }
 /* .booking_section */
 .header_section .booking_section{
 	left: 100px;
-	top: 250px;
+	top: 200px;
 	position: absolute;
 	background: var(--color-white);
 	width: 380px;
@@ -112,16 +111,48 @@ color: var(--primary-color);
 	color: var(--color-dark);
 }
 /* header section end */
+/* gallary section start */
+.gallary .gallary_content {
+	margin-bottom: 50px;
+	position: relative;
+}
+.gallary .gallary_content h6{
+	color: var(--brand-color);
+}
+.gallary .gallary_content h5{
+	color: #E54747;
+	font-size: smaller;
+}
+.gallary .country_name_1{
+	top: 610px;
+	left: 123px;
+	width: 260px;
+	position: absolute;
+	background: var(--brand-color);
+	color: var(--color-white);
+}
+.gallary .pricing_section_1{
+	top: 910px;
+	left: 123px;
+	width: 260px;
+	font-size: small;
+	position: absolute;
+	background: var(--brand-color);
+	color: var(--color-white);
+}
+
+/* gallary section end */
 
 /*partner_section start*/
 .partner_section{
-	display: flex;
+	margin-top: 60px;
+	background: #EEEEEE;
 	align-items: center;
 	align-content: center;
 	height: 150px;
-	background: #EEEEEE;
+	width: 100%;
 }
-.partner_section .image-fluid{
+.partner_section .img-fluid{
 	margin-top: 35px;
 	margin-bottom: 35px;
 	width: 100px;
