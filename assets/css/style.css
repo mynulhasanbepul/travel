@@ -112,9 +112,9 @@ color: var(--primary-color);
 }
 /* header section end */
 /* gallary section start */
-.gallary .gallary_content {
-	margin-bottom: 50px;
-	position: relative;
+/* .gallary .gallary_content {
+	
+	
 }
 .gallary .gallary_content h6{
 	color: var(--brand-color);
@@ -123,23 +123,29 @@ color: var(--primary-color);
 	color: #E54747;
 	font-size: smaller;
 }
+.gallary .gallary_content h4{
+	color: var(--color-white);
+	font-size: 20px;
+	width: 270px;
+	background: var(--brand-color);
+}
 .gallary .country_name_1{
 	top: 610px;
 	left: 123px;
-	width: 260px;
-	position: absolute;
+	width: 270px;
+	
 	background: var(--brand-color);
 	color: var(--color-white);
 }
-.gallary .pricing_section_1{
+.gallary .pricing_section{
 	top: 910px;
 	left: 123px;
-	width: 260px;
+	width: 270px;
 	font-size: small;
-	position: absolute;
+	
 	background: var(--brand-color);
 	color: var(--color-white);
-}
+} */
 
 /* gallary section end */
 
