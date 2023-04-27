@@ -112,9 +112,33 @@ color: var(--primary-color);
 }
 /* header section end */
 /* gallary section start */
-/* .gallary .gallary_content {
+ .gallary  {
 	
-	
+}
+.gallary .gallary_content h4{
+	color: var(--color-white);
+	font-size: 20px;
+	width: 264px;
+	background: var(--brand-color);
+}
+.slick-prev, .slick-next {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 50px;
+	height: 40px;
+	padding: 0;
+	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	cursor: pointer;
+	color: transparent;
+	border: none;
+	outline: none;
+	background: var(--brand-color);
+	z-index: 9999;
 }
 .gallary .gallary_content h6{
 	color: var(--brand-color);
@@ -123,12 +147,7 @@ color: var(--primary-color);
 	color: #E54747;
 	font-size: smaller;
 }
-.gallary .gallary_content h4{
-	color: var(--color-white);
-	font-size: 20px;
-	width: 270px;
-	background: var(--brand-color);
-}
+
 .gallary .country_name_1{
 	top: 610px;
 	left: 123px;
@@ -140,7 +159,7 @@ color: var(--primary-color);
 .gallary .pricing_section{
 	top: 910px;
 	left: 123px;
-	width: 270px;
+	width: 264px;
 	font-size: small;
 	
 	background: var(--brand-color);
