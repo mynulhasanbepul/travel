@@ -52,14 +52,14 @@
 		<div id="carousel_header" class="carousel slide header_section" data-bs-ride="carousel">
 			<div class="carousel-inner">
 			  <div class="carousel-item active">
-				<img src="assets/photos/header_1.jpg" class="d-block w-100 image-fluid" alt="travelimage_1" >
+				<img src="assets/photos/header_1.jpg" class="d-block w-100 image-fluid" alt="travelimage_1"  class="img-fluid">
 				
 			  </div>
 			  <div class="carousel-item">
-				<img src="assets/photos/header_2.jpg" class="d-block w-100 image-fluid" alt="travelimage_2">
+				<img src="assets/photos/header_2.jpg" class="d-block w-100 image-fluid" alt="travelimage_2" class="img-fluid">
 			  </div>
 			  <div class="carousel-item">
-				<img src="assets/photos/header_3.jpg" class="d-block w-100 image-fluid" alt="travelimage_3">
+				<img src="assets/photos/header_3.jpg" class="d-block w-100 image-fluid" alt="travelimage_3" class="img-fluid">
 			  </div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carousel_header" data-bs-slide="prev">
@@ -81,7 +81,7 @@
 		<!-- gallary section start -->
 			<section class="gallary">
 				<div class="container">
-					<div class="slick_slider d-flex" >
+					<div class="slick_slider d-flex " '>
 
 							<div class="gallary_content border mx-2">
 								
@@ -119,7 +119,7 @@
 						
 							<div class="gallary_content border mx-2">
 								4
-								 <!-- <h4 class=" text-center py-2">SPAIN</h4>
+								  <!-- <h4 class=" text-center py-2">SPAIN</h4>
 								<img src="assets/photos/destination_4.jpg" alt="gallary" title="gallary_img" class="img-fluid">
 								<h6>Paris,Marseille,lyon</h6>
 								<h5>NEW PALACE, 5 NIGHTS, 5 STARS</h5>
@@ -229,13 +229,16 @@
 		<script>
 			$('.slick_slider').slick({
   			infinite: true,
-			entermode:true,
+			centermode:true,
 			dots:true,
+			cssEase: 'linear',
+			pauseOnHover:true,
+			arrows:true,
   			speed: 1800,
   			slidesToShow: 4,
   			slidesToScroll: 1
 			});
-		</script>
+		</script> 
 		 
 	</body>
 </html>

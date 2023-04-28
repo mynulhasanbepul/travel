@@ -8,7 +8,10 @@
     --border-width: 2px;
     --btn-padding: 10px 65px;
 }
-
+::selection {
+	color:var(--color-white);
+	background: var(--brand-color);
+  }
 /* nav section start*/
 .nav_section .container{
 	background: var(--color-white);
@@ -126,20 +129,28 @@ color: var(--primary-color);
 	line-height: 0;
 	position: absolute;
 	top: 50%;
-	display: block;
 	width: 50px;
 	height: 40px;
 	padding: 0;
-	-webkit-transform: translate(0, -50%);
-	-ms-transform: translate(0, -50%);
-	transform: translate(0, -50%);
-	cursor: pointer;
-	color: transparent;
+	margin-left: 33px;
+	margin-right: 33px;
 	border: none;
-	outline: none;
 	background: var(--brand-color);
 	z-index: 9999;
+	visibility: visible;
 }
+.slick-prev, .slick-prev:hover{
+	background: var(--brand-color);
+
+}
+.slick-prev, .slick-next:hover{
+	background: var(--brand-color);
+	
+}
+.slick-prev::before, .slick-next::before {
+	font-family: none;
+}
+
 .gallary .gallary_content h6{
 	color: var(--brand-color);
 }
